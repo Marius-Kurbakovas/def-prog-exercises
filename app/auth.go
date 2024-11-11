@@ -2,7 +2,6 @@ package app
 
 import (
 	"context"
-	"database/sql"
 	"errors"
 	"io"
 	"log"
@@ -10,6 +9,8 @@ import (
 	"strconv"
 	"strings"
 	"time"
+
+	sql "github.com/empijei/def-prog-exercises/safesql"
 
 	"embed"
 )

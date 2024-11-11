@@ -1,6 +1,6 @@
 package safesql
 
-import "github.com/Marius-Kurbakovas/def-prog-exercises/safesql/internal/raw"
+import "github.com/empijei/def-prog-exercises/safesql/internal/raw"
 
 type compileTimeConstant string
 

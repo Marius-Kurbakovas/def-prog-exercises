@@ -2,13 +2,14 @@ package app
 
 import (
 	"context"
-	"database/sql"
 	"fmt"
 	"io"
 	"log"
 	"net/http"
 	"strconv"
 	"text/template"
+
+	sql "github.com/empijei/def-prog-exercises/safesql"
 
 	_ "embed"
 )
